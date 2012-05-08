@@ -1,0 +1,119 @@
+body{
+    background-color: #999999;
+    
+}
+
+#mainContainer{
+    width: 1024px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+#border{
+    border: 1px solid #000;
+    
+}
+
+#selectBoxes{
+    float: left;
+    margin: 10px;
+}
+
+#selectBoxes select{
+    display: block;
+}
+
+#periodSelect{
+    margin-top: 70px;
+}
+
+#statData img{
+    width: 75px;
+    height: 76px;
+}
+
+#statData{
+    text-align: center;
+    width: 700px;
+    margin-left: 150px;
+    margin: 0 auto;
+    font-family: Arial;
+    font-weight: bold;
+}
+.blackTitle{
+    background-color: #000;
+    color: #fff;
+}
+
+#rankTable{
+    width: 100%;
+    border: 2px solid #000;
+    border-collapse: collapse;
+    margin-top: 3px;
+}
+
+#rankTable td{
+    border: 2px solid #000;
+}
+
+#rankTable th{
+   background-color: #000;
+   color: #fff; 
+}
+
+#leftsummaryBlock{
+    float: left;
+    width: 49%;
+    border-left: 2px solid #000;
+}
+
+#rightsummaryBlock{
+    float: right;
+    width: 50%;
+    border-right: 2px solid #000;
+    border-left: 1px solid #000;
+}
+.summaryBlock{
+    width: 100%;
+    float: left;
+    background-color: #FFF;
+    color: #000;
+    
+}
+.paramName{
+    float: left;
+    margin-left: 3px;
+    
+}
+
+.paramValue{
+    float: right;
+    margin-right: 3px;
+    
+}
+
+#topTweetTable{
+    width: 100%;
+    border: 2px solid #000;
+    border-collapse: collapse;
+}
+
+#topTweetTable th{
+    border-bottom: 1px solid #000;
+    
+}
+
+#topTweetTable tr{
+    border-bottom: 1px solid #ccc;
+    
+    
+}
+#topTweetTable td{ 
+    font-size: 12px;
+}
+
+.twitTextTd{
+    text-align: left;
+    width: 70%;
+}
